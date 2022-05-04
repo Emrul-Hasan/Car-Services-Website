@@ -41,7 +41,7 @@ const Register = () => {
                 <input type="password" name="password" id="" placeholder='Password' required/>
                 <input type="submit" value="Register" />
             </form>
-            <p>Already have an account? <Link to="/login" className='text-danger pe-auto text-decoration-none' onClick={navigateLogin}>Please Login</Link> </p>
+            <p>Already have an account? <Link to="/login" className='text-danger pe-auto text-decoration-none' onClick={navigateLogin}>Please Login...</Link> </p>
         </div>
     );
 };

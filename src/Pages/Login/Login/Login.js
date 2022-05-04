@@ -58,7 +58,7 @@ const Login = () => {
                     Submit
                 </Button>
             </Form>
-            <p>New to Genius Car? <Link to="/register" className='text-danger pe-auto text-decoration-none' onClick={navigateRegister}>Please Register</Link> </p>
+            <p>New to Genius Car Services? <Link to="/register" className='text-danger pe-auto text-decoration-none' onClick={navigateRegister}>Please Register</Link> </p>
         </div>
     );
 };
